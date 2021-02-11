@@ -28,12 +28,6 @@
 
 // const state = reactive({ count: 0 })
 
-// export default {
-//   props: ["msg"],
-//   data: () => ({
-//     count: 0,
-//   }),
-// };
 
 import { ref } from "vue";
 export default {

@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const Block = require("./Block");
 const BlockChain = require("./BlockChain");
-app.get("/", (req, res) => {
+app.get("/chain", (req, res) => {
     let blockChain = new BlockChain();
     blockChain.addNewBlock(
         new Block(1, "01/06/2020", {

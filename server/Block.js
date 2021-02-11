@@ -25,7 +25,7 @@ class Block {
         ) {
             this.nonce++;
             this.hash = this.computeHash();
-            console.log(this.nonce);
+            // console.log(this.nonce);
         }
     };
 }
