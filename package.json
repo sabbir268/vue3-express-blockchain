@@ -1,0 +1,33 @@
+{
+    "name": "bockchain-vue-express",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview",
+        "dev-backend": "node server/index.js",
+        "both": "concurrently \"npm run dev-backend\" \"npm run dev\""
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.6.0",
+        "bootstrap": "^5.0.0-beta2",
+        "concurrently": "^5.3.0",
+        "core-js": "^3.8.3",
+        "crypto-js": "^4.0.0",
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "popper.js": "^1.16.1",
+        "sequelize": "^6.5.0",
+        "vue": "^3.0.5",
+        "vue-router": "^4.0.3"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^1.1.4",
+        "@vue/compiler-sfc": "^3.0.5",
+        "node-sass": "^5.0.0",
+        "sass": "^1.32.7",
+        "sass-loader": "^11.0.1",
+        "vite": "^2.0.0-beta.65",
+        "webpack": "^5.21.2"
+    }
+}
